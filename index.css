@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('https://kreceo.sfo2.cdn.digitaloceanspaces.com/Javascript_30/background-images/sebastien-gabriel--IMlv9Jlb24-unsplash.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.drum-Container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 375px;
+}
+
+.key {
+    width: 100%;
+    max-width: 100px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    transition: all 0.07s;  
+}
+
+.key span {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'Grenze', serif;
+}
+
+.key h3{
+    color: #ffc600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Grenze', serif;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
